@@ -18,9 +18,11 @@
   - Discord (video and text chat)
   - Discover Overlay (graphical overlay for Discord)
   - Flatseal (configure Flatpak app permissions)
-  - Lutris (game manager/installer)
   - Heroic Game Launcher (install GOG, Epic Store, etc games)
+  - Lutris (game manager/installer)
+  - Microsoft Edge (Xbox cloud gaming)
   - ProtonUp-Qt (install other Steam Play compatibility tools, eg. Luxtorpeda, Boxtron, GE-Proton)
+  - Space Cadet Pinball (port of 3D Pinball from Windows 95)
   - Syncthing GTK (easy file transfer between PC and Deck)
   
 - EmuDeck
@@ -37,6 +39,9 @@
   - `flatpak install flathub org.gnome.Platform.Compat.i386 org.freedesktop.Platform.GL32.default org.freedesktop.Platform.GL.default`
   - when prompted, choose the latest (highest version number) version of each
   - ref: https://www.gamingonlinux.com/2022/04/lutris-now-has-a-flatpak-beta-available-and-updated-for-the-steam-deck/
+
+- Xbox Cloud Gaming
+  - [Microsoft's instructions](https://support.microsoft.com/en-gb/topic/xbox-cloud-gaming-in-microsoft-edge-with-steam-deck-43dd011b-0ce8-4810-8302-965be6d53296)
 
 ## Other Resources
 
