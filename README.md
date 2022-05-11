@@ -35,6 +35,8 @@
   
 - Install Lutris dependencies (Konsole)
   - `flatpak install flathub org.gnome.Platform.Compat.i386 org.freedesktop.Platform.GL32.default org.freedesktop.Platform.GL.default`
+  - when prompted, choose the latest (highest version number) version of each
+  - ref: https://www.gamingonlinux.com/2022/04/lutris-now-has-a-flatpak-beta-available-and-updated-for-the-steam-deck/
 
 ## Other Resources
 
