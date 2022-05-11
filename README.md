@@ -6,8 +6,10 @@
   - enable Developer Mode
   - enable Bluetooth
 
-- Install RetroArch
-  - the Steam version of RetroArch supports cloud saves, which is a killer feature that you don't get from the standalone install.
+- RetroArch
+  - Install from Steam library 
+    - the Steam version's killer feature is cloud saves, allowing you to take the same savegames/states back and forth between desktop PC and Deck.
+  - Configure hotkeys to match [EmuDeck's hotkeys](https://github.com/dragoonDorise/EmuDeck)
 
 ## Desktop Mode
 
@@ -33,3 +35,16 @@
   
 - Install Lutris dependencies (Konsole)
   - `flatpak install flathub org.gnome.Platform.Compat.i386 org.freedesktop.Platform.GL32.default org.freedesktop.Platform.GL.default`
+
+## Other Resources
+
+- [mikeroyal/Steam-Deck-Guide](https://github.com/mikeroyal/Steam-Deck-Guide)
+  - some good info but also a lot of fluff
+  - some recommendations are questionable and clearly untested in a Deck environment
+- [popsulfr/steam-deck-tricks](https://gitlab.com/popsulfr/steam-deck-tricks)
+  - more hardcore, technical tricks
+- Fan noise comparison
+  - all Decks have fairly loud airflow whooshing when fan is at/near max, but some Decks have a mechanical whine on top of that
+  - [example of a "good" fan](https://www.youtube.com/watch?v=UEY_FsvwBlo) (turn up volume to hear)
+  - [example of a "bad" fan with whine](https://www.youtube.com/watch?v=s51a2kQJH0Y)
+  - some people have "fixed" the whiny fan [with additional electrical tape](https://www.theverge.com/23047412/valve-steam-deck-fan-tape-fix-noise-whine) to apply pressure to the fan casing. Not recommended for people inexperienced with taking apart electronic devices.
