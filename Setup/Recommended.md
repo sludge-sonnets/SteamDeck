@@ -24,14 +24,14 @@ These are my recommended steps for setting up a Steam Deck. You do not need to f
 
 - Open Konsole (command line)
   - (optional) Launch AnyDesk, install AnyDesk on your desktop PC, and do these steps over remote access to make typing and copy-paste a LOT easier. 
-  - Set sudo password for "deck" account (Konsole)
-    - `passwd`
+  - Set sudo password for "deck" account
+    - run command: `passwd`
     - enter desired password
   - Install AppImageLauncher
     - [instructions](https://www.reddit.com/r/SteamDeck/comments/t9xwte/how_to_automatically_integrate_appimage_apps_into/
     - adds AppImage apps into SteamOS environment)
-  - Install Lutris dependencies (Konsole)
-    - `flatpak install flathub org.gnome.Platform.Compat.i386 org.freedesktop.Platform.GL32.default org.freedesktop.Platform.GL.default`
+  - Install Lutris dependencies
+    - run command: `flatpak install flathub org.gnome.Platform.Compat.i386 org.freedesktop.Platform.GL32.default org.freedesktop.Platform.GL.default`
     - when prompted, choose the latest (highest version number) version of each
     - ref: https://www.gamingonlinux.com/2022/04/lutris-now-has-a-flatpak-beta-available-and-updated-for-the-steam-deck/
 
