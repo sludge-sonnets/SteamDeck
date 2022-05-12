@@ -72,8 +72,23 @@ For the rest of the emulators, I recommend running the EmuDeck script to install
   - choose what you prefer for SNES rendering (I choose 4:3 since that's what they were on my TV in the '90s)
   - choose what you prefer for disabling widescreen hacks (I disable them all, these are 4:3 systems)
   - let EmuDeck install run, and take note of alerts about BIOS files, etc. that you need to put in place
+    - ~find a RetroArch BIOS pack online~ Create your own BIOS dumps from your consoles, following all local laws and regulations.
     - to easily get firmware and keys for yuzu, use [EmuSAK-UI](https://github.com/CapitaineJSparrow/emusak-ui) on a Windows PC, and move the files over via AnyDesk or Syncthing  
-  - ~find a RetroArch BIOS pack online~ Create your own BIOS dumps from your consoles, following all local laws and regulations.
+  - fill in RetroAchievements info if you wish
+  - you'll get a prompt for how to enable Powertools once back in Game Mode. Those instructions will be repeated here below.
+  - After script is over, I like to create an EmuDeck folder on the desktop, and move the various EmuDeck icons into it
+  - If you installed AppImageLauncher from the instructions above, move the SteamRomManager AppImage from the desktop to the "Applications" folder inside your "Home" folder. This will add Steam ROM Manager to your app/start menu, in the Utilities section.
+    - (optional) In the Utilities menu, right-click on Steam ROM Manager and select Add to Favorites, to make it a little easier to browse to 
+
+## Enabling Powertools
+
+- Return to Game Mode
+- Enable Developer Mode if you didn't do it already
+- Scroll the sidebar all the way down and click Developer
+- under Miscellaneous, enable CEF Remote Debugging
+- To get to Powertools, press the "..." button, and select the Plugins menu
+  - Powertools menu is TOUCH ONLY, don't try to manipulate it with the Deck sticks/buttons
+- Running games in Yuzu or Dolphin may benefit from using only 4 CPU cores.
 
 ## Cloud Gaming
 
