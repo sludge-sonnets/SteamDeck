@@ -10,6 +10,13 @@ These are my recommended steps for setting up a Steam Deck. You do not need to f
 
 ## Desktop Mode
 
+- Enable double-click to open/run
+  - KDE defaults to single-click for opening files/folders or running things, drives me nuts
+  - To make single-click select instead of open:
+    - open System Settings app
+    - go to Workspace Behavior
+    - in General Behavior, change "Clicking files or folders" to "selects them"
+
 - Install from Discover
   - AnyDesk (remote desktop software - do typing-heavy tasks remotely from your PC)
   - Discord (video and text chat)
@@ -51,6 +58,21 @@ For the rest of the emulators, I recommend running the EmuDeck script to install
 
 - EmuDeck
   - [Download installer from emudeck.com](https://www.emudeck.com/)
+  - Open Dolphin (file manager), browse to downloads, double-click on EmuDeck.desktop, and select Execute
+  - Hit Continue when prompted with a warning
+  - select Expert Mode
+  - select either SD Card or Internal Storage, depending on where you intend to store your ROMs (I prefer SD card, assuming you have a nice big SD)
+  - select Yes to install the CHD conversion tool
+  - select Yes to install Powertools
+  - select Yes to update Steam ROM Manager
+  - select Yes to install EmulationStation DE + its RetroArch cores (we'll use these to add missing cores to our Steam RetroArch install)
+  - choose whatever emulators you want from the selection screen (I install them all)
+  - select Yes to install bezels for RetroArch
+  - select Yes for RetroArch autosave/autoload
+  - choose what you prefer for SNES rendering (I choose 4:3 since that's what they were on my TV in the '90s)
+  - choose what you prefer for disabling widescreen hacks (I disable them all, these are 4:3 systems)
+  - let EmuDeck install run, and take note of alerts about BIOS files, etc. that you need to put in place
+    - to easily get firmware and keys for yuzu, use [EmuSAK-UI](https://github.com/CapitaineJSparrow/emusak-ui) on a Windows PC, and move the files over via AnyDesk or Syncthing  
   - ~find a RetroArch BIOS pack online~ Create your own BIOS dumps from your consoles, following all local laws and regulations.
 
 ## Cloud Gaming
