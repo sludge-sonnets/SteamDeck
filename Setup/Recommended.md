@@ -11,7 +11,7 @@ These are my recommended steps for setting up a Steam Deck. You do not need to f
 ## Desktop Mode
 
 - Enable double-click to open/run
-  - KDE defaults to single-click for opening files/folders or running things, drives me nuts
+  - KDE defaults to single-click for opening files/folders or running things, drives me nuts. If you like that, skip this part.
   - To make single-click select instead of open:
     - open System Settings app
     - go to Workspace Behavior
