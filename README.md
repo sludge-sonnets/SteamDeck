@@ -1,47 +1,8 @@
-# First Steps After Initial Login
+# The sludge_sonnets Steam Deck Guide
 
-## Game Mode
+## Sections
 
-- Steam Menu settings
-  - enable Developer Mode
-  - enable Bluetooth
-
-- RetroArch
-  - Install from Steam library 
-    - the Steam version's killer feature is cloud saves, allowing you to take the same savegames/states back and forth between desktop PC and Deck.
-  - Configure hotkeys to match [EmuDeck's hotkeys](https://github.com/dragoonDorise/EmuDeck)
-
-## Desktop Mode
-
-- Install from Discover
-  - AnyDesk (remote desktop software - do typing-heavy tasks remotely from your PC)
-  - Discord (video and text chat)
-  - Discover Overlay (graphical overlay for Discord)
-  - Flatseal (configure Flatpak app permissions)
-  - Heroic Game Launcher (install GOG, Epic Store, etc games)
-  - Lutris (game manager/installer)
-  - Microsoft Edge (Xbox cloud gaming)
-  - ProtonUp-Qt (install other Steam Play compatibility tools, eg. Luxtorpeda, Boxtron, GE-Proton)
-  - Space Cadet Pinball (port of 3D Pinball from Windows 95)
-  - Syncthing GTK (easy file transfer between PC and Deck)
-  
-- EmuDeck
-  - [Download installer from emudeck.com](https://www.emudeck.com/)
-
-- Set sudo password for "deck" account (Konsole)
-  - `passwd`
-  - enter desired password
-
-- Install from command line (Konsole)
-  - AppImageLauncher ([instructions](https://www.reddit.com/r/SteamDeck/comments/t9xwte/how_to_automatically_integrate_appimage_apps_into/) - adds AppImage apps into SteamOS environment)
-  
-- Install Lutris dependencies (Konsole)
-  - `flatpak install flathub org.gnome.Platform.Compat.i386 org.freedesktop.Platform.GL32.default org.freedesktop.Platform.GL.default`
-  - when prompted, choose the latest (highest version number) version of each
-  - ref: https://www.gamingonlinux.com/2022/04/lutris-now-has-a-flatpak-beta-available-and-updated-for-the-steam-deck/
-
-- Xbox Cloud Gaming
-  - [Microsoft's instructions](https://support.microsoft.com/en-gb/topic/xbox-cloud-gaming-in-microsoft-edge-with-steam-deck-43dd011b-0ce8-4810-8302-965be6d53296)
+- [Initial Setup](Setup/Recommended.md)
 
 ## Other Resources
 
