@@ -51,6 +51,7 @@ For the rest of the emulators, I recommend running the EmuDeck script to install
 
 - EmuDeck
   - [Download installer from emudeck.com](https://www.emudeck.com/)
+  - ~find a RetroArch BIOS pack online~ Create your own BIOS dumps from your consoles, following all local laws and regulations.
 
 ## Cloud Gaming
 
