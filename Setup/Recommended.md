@@ -28,7 +28,7 @@ These are my recommended steps for setting up a Steam Deck. You do not need to f
     - run command: `passwd`
     - enter desired password
   - Install AppImageLauncher
-    - [instructions](https://www.reddit.com/r/SteamDeck/comments/t9xwte/how_to_automatically_integrate_appimage_apps_into/
+    - [instructions](https://www.reddit.com/r/SteamDeck/comments/t9xwte/how_to_automatically_integrate_appimage_apps_into/)
     - adds AppImage apps into SteamOS environment)
   - Install Lutris dependencies
     - run command: `flatpak install flathub org.gnome.Platform.Compat.i386 org.freedesktop.Platform.GL32.default org.freedesktop.Platform.GL.default`
