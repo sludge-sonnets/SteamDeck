@@ -23,6 +23,7 @@ These are my recommended steps for setting up a Steam Deck. You do not need to f
   - Syncthing GTK (easy file transfer between PC and Deck)
 
 - Open Konsole (command line)
+  - (optional) Launch AnyDesk, install AnyDesk on your desktop PC, and do these steps over remote access to make typing and copy-paste a LOT easier. 
   - Set sudo password for "deck" account (Konsole)
     - `passwd`
     - enter desired password
