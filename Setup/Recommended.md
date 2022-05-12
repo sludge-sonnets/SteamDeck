@@ -83,9 +83,11 @@ For the rest of the emulators, I recommend running the EmuDeck script to install
 ## Enabling Powertools
 
 - Return to Game Mode
-- Enable Developer Mode if you didn't do it already
-- Scroll the sidebar all the way down and click Developer
+- press the Steam button
+- in Settings, enable Developer Mode if you didn't do it already
+- scroll the sidebar menu down to Developer
 - under Miscellaneous, enable CEF Remote Debugging
+- restart Steam when prompted
 - To get to Powertools, press the "..." button, and select the Plugins menu
   - Powertools menu is TOUCH ONLY, don't try to manipulate it with the Deck sticks/buttons
 - Running games in Yuzu or Dolphin may benefit from using only 4 CPU cores.
